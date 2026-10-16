@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 6px; /* patla scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #FCFCF8; /* tumhari theme ka light bg */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #293E30; /* tumhari theme ka dark green */
+  border-radius: 9999px;     /* gol scrollbar */
+  border: 2px solid #FCFCF8; /* track ke sath gap */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;          /* patla scrollbar */
+  scrollbar-color: #293E30 #FCFCF8; /* thumb color + track color */
+}
